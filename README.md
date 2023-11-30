@@ -30,10 +30,10 @@ The next 2 plots show that some employees left the company in two main groups: T
 In summary, employees are leaving the company due to suboptimal people management. This is connected to factors such as prolonged working hours, lots of projects, and feeling generally unhappy. The absence of promotion and good evaluation scores despite extended working hours can contribute to dissatisfaction. Many workers here might be really tired out. Additionally, if someone has been at the company with a tenure exceeding six years, they tend to exhibit a lower likelihood of leaving the company.
 
 ### Data Analysis and Evaluation
-Since the variable we want to predict is categorical, we use a random forest model which has 300 decision trees to identify the feature importance of the variables. We use 2 rounds of random forest to eliminate the data leakage where we expect a drop of AUC in the 2nd round. By using feature engineering, we drop the satisfaction level and create a new 'overworked' variable to replace the average hours per month which describe wether an employee is overworked or not. The improved random forest model shows an AUC of 93.8% with an accuracy and precision of 96.2% and 87% respectively. The model has a slightly lower metric score compared to the first round of random forest but the model still shows a well-performing model.
+Since the variable we want to predict is categorical, we use a random forest model that has 300 decision trees to identify the feature importance of the variables. We use 2 rounds of random forest to eliminate the data leakage where we expect a drop of AUC in the 2nd round. By using feature engineering, we drop the satisfaction level and create a new 'overworked' variable to replace the average hours per month which describes wether an employee is overworked or not. The improved random forest model shows an AUC of 93.8% with accuracy and precision of 96.2% and 87% respectively. The model has a slightly lower metric score compared to the first round of random forest but the model still shows a well-performing model.
 
 <img src="images/RF_feature_importance.png" alt="Fare plot" width="650" height="400" class="center">
-The plot above shows that in this random forest model, Last Evaluation, Number of Projects, Job Tenure, and if the employee is overworked have the highest importance, in that order. These variables are most helpful in predicting the outcome variable wether or not the employee will leave.
+The plot above shows that in this random forest model, Last Evaluation, Number of Projects, Job Tenure, and if the employee is overworked have the highest importance, in that order. These variables are most helpful in predicting the outcome variable whether or not the employee will leave.
 
 ### Conclusion
 The random forest model demonstrates positive outcomes in discerning factors influencing whether an employee will remain with the company. It aids in forecasting employee departures and pinpointing the most impactful factors. Such findings empower HR to make informed decisions aimed at enhancing employee retention.
@@ -41,4 +41,4 @@ The random forest model demonstrates positive outcomes in discerning factors inf
 ### Key takeaways
 - Last Evaluation, Number of Projects, Job Tenure, and if the employee is overworked have the highest importance
 - The random forest model shows a good result with an AUC of 93.8%
-- Feature engineering of the data to minimize data leakage gives a proper identification of the variables that could affect wether the employee will leave or not
+- Feature engineering of the data to minimize data leakage gives a proper identification of the variables that could affect whether the employee will leave or not
