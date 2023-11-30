@@ -17,6 +17,8 @@ testing
 ### Data Analysis and Evaluation
 testing
 
+<img src="images/RF_feature_importance.png" alt="Fare plot" width="1000" height="400" class="center">
+
 ### Conclusion
 Testing
 
