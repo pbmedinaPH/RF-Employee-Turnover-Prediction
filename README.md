@@ -16,7 +16,7 @@ The data we use has 15k rows and 10 columns of data. Before we begin, we first u
 
 The first plot shows that workers who quit can be grouped into two main types: those who were unhappy and didn't stay for long, and those who were very satisfied but had moderate-length stays.
 Those who worked for four years before leaving appear to have been less satisfied than usual. It's worth looking into any changes in company rules around the four-year mark to see if that affected their satisfaction.
-The employees who stayed the longest were also the most content and had satisfaction levels similar to newer employees who stayed. The graph indicates that there aren't many employees with longer tenures, and it's possible that they are higher-ranking or better-paid employees. The second plot above shows that long-tenured employees were not disproportionately comprised of higher-paid employees.
+The employees who stayed the longest were also the most content and had satisfaction levels similar to newer employees who stayed. The graph indicates that there aren't many employees with longer tenure, and they may be higher-ranking or better-paid employees. The second plot above shows that long-tenured employees were not disproportionately comprised of higher-paid employees.
 
 <br>
 
